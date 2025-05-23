@@ -1,9 +1,11 @@
+import RoutesAll from "./routes/RoutesAll";
 import Header from "./ui/header/Header";
 
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header />
+      <RoutesAll />
     </>
   );
 }
