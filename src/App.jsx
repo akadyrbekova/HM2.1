@@ -1,23 +1,14 @@
-import CardListFeature from "./features/card/List";
 import RoutesAll from "./routes/RoutesAll";
-import Block from "./ui/Block";
-import Header from "./ui/Header";
-import Input from "./ui/Input";
+import Header from "./components/Header";
+import Footer from "./components/footer/Footer";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
       <Header />
-      <Block textBlog={"Блог"} />
-      <CardListFeature />
-      <Block
-        textPromo={
-          "Получите бесплатно дизайн проект кухни и консультацию дизайнера"
-        }
-        desc={"Вы узнаете точную стоимость вашей кухни и получите 3D-проект"}
-        inp={<Input />}
-      />
       <RoutesAll />
+      <Footer />
     </>
   );
 }
