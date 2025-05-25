@@ -1,5 +1,5 @@
 const Blog = () => {
-  return <h1 className="flex justify-center">Blog</h1>;
+  return <h1 className="flex justify-center">bb</h1>;
 };
 
 export default Blog;
